@@ -1233,6 +1233,19 @@ section {
   background: #3dc8b7;
 }
 
+.form-btn {
+  background-color: rgba(17, 17, 17, 0);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: none;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  border: solid 1px rgb(201, 201, 201)
+}
+.form-btn:hover {
+  background-color: rgba(168, 168, 168, 0.055);
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
